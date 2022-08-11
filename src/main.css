@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(2, 2, 2);
+}
+.nav button{
+    background-color: #282c34;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.portfolio{
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white; 
+}
